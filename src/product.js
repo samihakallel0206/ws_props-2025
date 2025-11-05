@@ -33,6 +33,6 @@ export const product = [
     image:
       "https://www.tunisianet.com.tn/443095-large/smartphone-honor-play10-3go-64go-4g-cyan.jpg",
     couleur: "secondary",
-    btncontent: "vert ",
+    btncontent: "gris",
   },
 ];
