@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
 const Carte = ({prod}) => {
-
+const handleClick = () => alert(`Vous venez de cliquer sur ${prod.btncontent}`);
   return (
     <div>
       
@@ -10,7 +10,7 @@ const Carte = ({prod}) => {
         <Card.Body>
           <Card.Title>{prod.titre}</Card.Title>
           <Card.Text>{prod.description}</Card.Text>
-          <Button variant={prod.couleur}>{prod.btncontent}</Button>
+          <Button variant={prod.couleur} onClick={handleClick}>{prod.btncontent}</Button>
         </Card.Body>
       </Card> 
     </div>
